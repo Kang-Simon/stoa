@@ -63,7 +63,8 @@ describe("Test of Stoa API Server", () => {
     let gecko_market: CoinGeckoMarket;
     let coinMarketService: CoinMarketService;
     let test: number;
-    let test2: number;
+    let test2: string;
+
 
     before("Wait for the package libsodium to finish loading", async () => {
         SodiumHelper.assign(new BOASodium());
